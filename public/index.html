@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Soni | Minecraft & Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts for a clean, modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Abhishek<span>Dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#showcase">AtlantisMC</a></li>
+            <li><a href="#contact" class="btn-primary">Hire Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero section hidden">
+        <div class="hero-content">
+            <h1>Building Next-Level <span class="highlight">Minecraft</span> Networks</h1>
+            <p>Hey, I'm Abhishek Soni. I'm a full-stack SMP developer, plugin creator, and web developer helping server owners build amazing communities.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-secondary">View My Work</a>
+                <a href="#contact" class="btn-primary">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section dark-bg hidden">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a 14-year-old developer based in Bilaspur, CG, India, currently in 9th standard. Don't let the age fool you—I've been in the Discord and Minecraft server space for over 2 years, building scalable systems and managing communities.</p>
+                    <p>I specialize in creating custom experiences. Whether it's coding unique plugins, setting up complex Skripts, configuring DeluxeMenus, or building automation websites with custom UPI/FamPay integration (bypassing Tebex fees), I get the job done right.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Java & PE</h3>
+                        <p>Cross-play Expert</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section hidden">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">⚙️</div>
+                    <h3>SMP & Network Setup</h3>
+                    <p>Full server development from scratch. Fully optimized, lag-free setups for both Premium and Cracked users (Java & Bedrock support).</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Plugins & Skripts</h3>
+                    <p>Need a custom mechanic? I develop bespoke plugins, custom texture packs, complex Skripts, and clean DeluxeMenus configurations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Automation & FamPay</h3>
+                    <p>I build modern websites with automated payment gateways via UPI/FamPay for server owners who don't have bank accounts and want to avoid Tebex.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🛡️</div>
+                    <h3>Staff & Discord Management</h3>
+                    <p>Experienced Discord administrator. I build structured, secure, and engaging Discord servers tailored perfectly to your Minecraft network.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="section dark-bg hidden">
+        <div class="container">
+            <h2 class="section-title">My Network: <span class="highlight">AtlantisMC</span></h2>
+            <p class="text-center">I don't just build for clients; I run my own successful network.</p>
+            
+            <div class="server-card">
+                <div class="server-info">
+                    <h3>AtlantisMC Network</h3>
+                    <div class="ip-box">
+                        <span id="ip-text">play.atlantismc.fun</span>
+                        <button onclick="copyIP()" class="copy-btn">Copy IP</button>
+                    </div>
+                    <p class="server-desc">Supports Java & PE (Cracked & Premium). Join our community today!</p>
+                </div>
+                <div class="server-status">
+                    <div class="status-indicator">
+                        <span class="pulse-dot"></span>
+                        <span id="status-text">Checking Status...</span>
+                    </div>
+                    <div class="player-count">
+                        <span id="online-players">0</span> / <span id="max-players">0</span>
+                        <p>Players Online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="https://store.atlantismc.fun/" target="_blank" class="btn-secondary">Visit Official Store</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section hidden">
+        <div class="container text-center">
+            <h2 class="section-title">Ready to work together?</h2>
+            <p>I offer high-quality development at affordable rates. Hit me up to discuss your project.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:saurabhrock8982@gmail.com" class="contact-card">
+                    <h3>Email Me</h3>
+                    <p>saurabhrock8982@gmail.com</p>
+                </a>
+                <div class="contact-card">
+                    <h3>Discord</h3>
+                    <p>@techmaster600</p>
+                </div>
+                <a href="https://store.atlantismc.fun/" target="_blank" class="contact-card">
+                    <h3>Raise a Ticket</h3>
+                    <p>Join AtlantisMC Discord</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abhishek Soni. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
