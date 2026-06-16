@@ -1,0 +1,13 @@
+{
+  "name": "abhishek-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Abhishek Soni - MC Developer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
